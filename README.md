@@ -41,17 +41,22 @@ PairPods is a macOS menubar app that lets you share audio between two Bluetooth 
 
 ## Requirements
 
-- macOS Sonoma (14.0) or later
+- macOS 13.5 (Ventura) or later
+- Both Apple and Intel silicon are supported
 - Two compatible Bluetooth audio devices
 
 ## Installation
 
 ### Homebrew
 
+To install PairPods with Homebrew, simply run:
+
 ```bash
-brew tap wozniakpawel/pairpods
 brew install --cask pairpods
 ```
+
+### Updates
+Please note that PairPods uses Sparkle to check for and notify you of new updates automatically. Homebrew does not provide update notifications.
 
 ### Manual Installation
 
@@ -70,8 +75,8 @@ brew install --cask pairpods
 ## Building from Source
 
 1. Prerequisites:
-   - macOS Sonoma (14.0) or later
-   - Xcode 16.0 or later (required for project compatibility)
+   - macOS 15.0 (Sequoia) or later
+   - Xcode 16.0 or later
 
 2. Clone the repository
 ```bash
